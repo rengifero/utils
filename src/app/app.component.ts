@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'utils';
+  birthday = new Date(1993,3, 8);
+ 
+  constructor (){
+
+   // birthday = new Date(1996, 3, 21);
+
+  }
 }
